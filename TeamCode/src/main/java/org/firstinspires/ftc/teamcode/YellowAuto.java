@@ -139,41 +139,6 @@ public class YellowAuto extends LinearOpMode {
                         .stopAndAdd(mech.diffy("up"))
                         .waitSeconds(1)
 
-//                        .stopAndAdd(mech.lift(0))
-//                        .lineToX(50, new TranslationalVelConstraint(10))
-//                        .waitSeconds(2)
-//                        .stopAndAdd(mech.rotate(0))
-//                        .turn(Math.toRadians(45))
-
-
-
-//                        .splineToLinearHeading(new Pose2d(56,25, Math.toRadians(0)), Math.toRadians(0))
-//                        .waitSeconds(0.5)
-//                        .setTangent(Math.toRadians(90))
-//                        .lineToYLinearHeading(50, Math.toRadians(225), new TranslationalVelConstraint(10))
-////
-
-
-
-
-
-
-
-
-
-
-
-
-//                        .splineToLinearHeading(new Pose2d(55,55, Math.toRadians(225)), Math.toRadians(225))
-//
-//                        .setTangent(45)
-//                        .lineToYLinearHeading(28,0)
-//                        .setTangent(0)
-//                        .lineToX(40)
-//                        .setTangent(45)
-//                        .lineToYLinearHeading(56,180)
-//                        .lineToYLinearHeading(55,180)
-//                        .splineToLinearHeading(new Pose2d(35,12,Math.toRadians(180)), Math.toRadians(180))
                         .build());
 
     }

@@ -127,45 +127,6 @@ public class SpecimenAuto extends LinearOpMode {
                         .stopAndAdd(mech.lift(200))
                         .stopAndAdd(mech.rotate(0))
 
-//                        .setTangent(Math.toRadians(90))
-//                        .lineToY(63)
-//                        .stopAndAdd(mech.claw("close"))
-//                        .waitSeconds(0.5)
-//                        .stopAndAdd(mech.rotate(1125))
-//                        .stopAndAdd(mech.diffy("up"))
-////                        .waitSeconds(5)
-//                        .setTangent(Math.toRadians(315))
-//                        .afterDisp(3, mech.lift(800))
-//                        .splineToLinearHeading(new Pose2d(5,42.5, Math.toRadians(90)), Math.toRadians(315))
-//                        .stopAndAdd( mech.lift(1700))
-//                        .waitSeconds(0.5)
-//                        .stopAndAdd(mech.claw("open"))
-//                        .waitSeconds(0.5)
-//                        .stopAndAdd(mech.lift(0))
-//                        .waitSeconds(1)
-////                        .setTangent(Math.toRadians(315))
-////                        .splineToLinearHeading(new Pose2d(0,30, Math.toRadians(90)), Math.toRadians(315))
-
-
-
-
-
-
-
-
-
-
-
-//                        .splineToLinearHeading(new Pose2d(55,55, Math.toRadians(225)), Math.toRadians(225))
-//
-//                        .setTangent(45)
-//                        .lineToYLinearHeading(28,0)
-//                        .setTangent(0)
-//                        .lineToX(40)
-//                        .setTangent(45)
-//                        .lineToYLinearHeading(56,180)
-//                        .lineToYLinearHeading(55,180)
-//                        .splineToLinearHeading(new Pose2d(35,12,Math.toRadians(180)), Math.toRadians(180))
                         .build());
 
 
